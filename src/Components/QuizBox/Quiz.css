@@ -1,5 +1,26 @@
-.box{
-    background-color: red;
-    padding: 5rem;
-    border: 2px solid;
+.quiz-box{
+    width: 400px;
+    height: 500px;
+    background-color: whitesmoke;
+    padding: 1rem 2rem;
+    border-radius: 7px;
+}
+h3{
+    text-transform: uppercase;
+}
+.questions{
+    padding: 1rem 0;
+}
+.variant-btn{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: .6rem;
+    background-color: whitesmoke;
+    border: 1px solid rgb(241, 227, 227);
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.variant-btn:hover{
+    background-color: rosybrown;
 }

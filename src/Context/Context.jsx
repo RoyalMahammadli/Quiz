@@ -1,11 +1,11 @@
 import { createContext, useState } from "react";
 import { quizInfo } from "../Data/QuizData";
 export const ContexProvider = ({ children }) => {
-  const [data, myData] = useState(quizInfo.informations);
+  const [datas, setDatas] = useState(quizInfo.informations);
 
   const obj = {
-    data,
-    myData
+    datas,
+    setDatas
   };
   return (
     <Context.Provider value={obj}>
