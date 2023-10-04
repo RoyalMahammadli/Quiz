@@ -1,6 +1,5 @@
 .quiz-box{
     width: 400px;
-    height: 500px;
     background-color: whitesmoke;
     padding: 1rem 2rem;
     border-radius: 7px;
@@ -11,16 +10,79 @@ h3{
 .questions{
     padding: 1rem 0;
 }
+.questions h4{
+
+    font-size: 1.2rem;
+}
 .variant-btn{
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: .6rem;
-    background-color: whitesmoke;
-    border: 1px solid rgb(241, 227, 227);
+    background-color: rgba(20, 183, 233, 0.082);
+    border: 1px solid rgba(52, 124, 219, 0.384);
     cursor: pointer;
     margin-bottom: 1rem;
+    border-radius: 7px;
+    transition: .4s all;
+    text-transform: capitalize;
 }
 .variant-btn:hover{
     background-color: rosybrown;
+    color: rgb(13, 91, 192);
+    background-color: whitesmoke;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(17, 113, 240);
+    padding: 10rem 0;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.363);
+  }
+  .none {
+    display: none;
+  }
+  .block {
+    display: block;
+  }
+  .next-prev-btn {
+    display: flex;
+    }
+  .next-prev-btn button {
+    padding: 5px;
+    color: white;
+    background-color: rgb(17, 113, 240);
+    border-radius: 7px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: .4s all;
+    border: 1px solid rgb(17, 113, 240);
+  }
+  .next-prev-btn button:hover {
+    color: rgb(17, 113, 240);
+    background-color: white;
+  }
+  .time{
+   display: flex;
+   justify-content: space-between;
+   background-color:rgba(191, 213, 250, 0.349) ;
+   padding: 2px 2rem;
+  }
+  .time >span{
+    width: 60px;
+  }
+  .time p{
+    margin-left: .5rem;
+  }
+  

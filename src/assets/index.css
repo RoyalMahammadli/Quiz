@@ -1,11 +1,7 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body{
-  display: flex;
-  justify-content: center;
-  background-color:rgb(53, 95, 223);
-  padding: 10rem 0;
+  border: none;
+  outline: none;
 }
