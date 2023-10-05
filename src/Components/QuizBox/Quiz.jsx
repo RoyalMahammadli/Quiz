@@ -4,10 +4,9 @@ import Context from "../../Context/Context";
 import { nanoid } from "nanoid";
 function Quiz() {
   const [currentQuestion, setCurrentQuestion] = useState(0)
-  const [time, setTime] = useState(10)
+  const [time, setTime] = useState(200)
   const [score, setScore] = useState(0)
   const [showScore, setShowScore] = useState(false)
-  const [choosenVariant, setChoosenVariant] = useState('')
   const { datas } = useContext(Context);
   useEffect(() => {
     let myInterval;
@@ -21,6 +20,7 @@ function Quiz() {
 
   const resultQue = () => {
     setShowScore(!showScore)
+
   }
   useEffect(() => {
     if (time <= 0) {
