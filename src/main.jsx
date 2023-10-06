@@ -1,5 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import MainLayout from "../src/Layouts/MainLayout";
 import '../src/assets/index.css'
-ReactDOM.createRoot(document.getElementById("root")).render(<MainLayout />);
+import MainLayout from "./Layouts/MainLayout";
+import { ContexProvider } from "./Context/Context";
+ReactDOM.createRoot(document.getElementById("root")).render(
+    <ContexProvider>
+        <MainLayout />
+
+    </ContexProvider>
+);

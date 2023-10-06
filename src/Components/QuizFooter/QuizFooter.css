@@ -1,0 +1,31 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.363);
+  }
+  .none {
+    display: none;
+  }
+  .block {
+    display: block;
+  }
+  .next-prev-btn {
+    display: flex;
+  }
+  .next-prev-btn button {
+    padding: 5px;
+    color: white;
+    background-color: rgb(17, 113, 240);
+    border-radius: 7px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: .4s all;
+    border: 1px solid rgb(17, 113, 240);
+  }
+  .next-prev-btn button:hover {
+    color: rgb(17, 113, 240);
+    background-color: white;
+  }
+  

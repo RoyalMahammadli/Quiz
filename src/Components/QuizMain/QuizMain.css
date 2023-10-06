@@ -1,0 +1,26 @@
+
+.questions {
+    padding: 1rem 0;
+  }
+  .questions h4 {
+    font-size: 1.2rem;
+  }
+  .variant-btn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: .6rem;
+    background-color: rgba(20, 183, 233, 0.082);
+    border: 1px solid rgba(52, 124, 219, 0.384);
+    cursor: pointer;
+    margin-bottom: 1rem;
+    border-radius: 7px;
+    transition: .4s all;
+    text-transform: capitalize;
+  }
+  .variant-btn:hover {
+    background-color: rosybrown;
+    color: rgb(13, 91, 192);
+    background-color: whitesmoke;
+  }
+  
