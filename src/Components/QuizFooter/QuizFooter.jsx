@@ -3,22 +3,13 @@ import './QuizFooter.css'
 import Context from '../../Context/Context'
 
 function QuizFooter() {
-    const { datas, currentQuestion,setCurrentQuestion,resultQue } = useContext(Context)
-
-   
-
-
+    const { datas, currentQuestion, setCurrentQuestion, resultQue } = useContext(Context)
     const nextQuestion = () => {
         setCurrentQuestion(currentQuestion + 1)
     }
     const prevQuestion = () => {
         setCurrentQuestion(currentQuestion - 1)
     }
-
-
-
-
-
     return (
         <footer>
             <span className="active-question-numbs"> {currentQuestion + 1} of {datas.length} Questions</span>

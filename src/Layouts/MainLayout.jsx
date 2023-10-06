@@ -7,11 +7,7 @@ import Context from "../Context/Context";
 
 const MainLayout = () => {
   const { showScore } = useContext(Context)
-
-
   return (
-
-
     <div className="quiz-box">
       {showScore ?
         <ScoreBox /> :

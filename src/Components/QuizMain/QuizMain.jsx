@@ -4,9 +4,7 @@ import { nanoid } from 'nanoid'
 import './QuizMain.css'
 
 function QuizMain() {
-    const { datas, currentQuestion,setCurrentQuestion,score,setScore } = useContext(Context)
-
-
+    const { datas, currentQuestion, setCurrentQuestion, score, setScore } = useContext(Context)
     const getVariant = (e) => {
         if (currentQuestion < datas.length - 1) {
             setCurrentQuestion(currentQuestion + 1)
@@ -15,9 +13,7 @@ function QuizMain() {
             setScore(score + 1)
         }
     }
-
-
-
+    
     return (
         <main>
             <div className="questions">

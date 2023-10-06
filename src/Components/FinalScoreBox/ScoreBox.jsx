@@ -5,7 +5,6 @@ import Context from '../../Context/Context'
 function ScoreBox() {
     const { score } = useContext(Context)
 
-
     return (
         <div className="score-box">
             <h1>Final Results</h1>

@@ -21,10 +21,6 @@ function QuizHead() {
 
   }, [time])
 
-
-
-
-
   return (
 
     <header>

@@ -11,11 +11,6 @@ export const ContexProvider = ({ children }) => {
     setShowScore(!showScore)
 
   }
-
-
-
-
-
   const obj = {
     datas,
     setDatas,
